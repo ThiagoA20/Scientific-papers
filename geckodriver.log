@@ -1,0 +1,15 @@
+1602712957439	geckodriver	INFO	Listening on 127.0.0.1:60645
+1602713230935	geckodriver	INFO	Listening on 127.0.0.1:39773
+1602713230954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelvuh64"
+1602713232695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1602713232695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1602713232695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1602713232695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 54881, tid 54881, syscall 315, args 54881 139645741381824 56 0 27 139645741381824.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://19837c87-1561-4c49-a726-31ecfac8d4b3/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+Sandbox: seccomp sandbox violation: pid 54917, tid 54917, syscall 315, args 54917 140429540407936 56 0 21 140429540407936.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1602713236926	Marionette	INFO	Listening on port 40197
+1602713237065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602713255666	Marionette	INFO	Stopped listening on port 40197
