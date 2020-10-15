@@ -4,6 +4,8 @@ from selenium.webdriver.firefox.options import Options
 
 
 def txt_rob(content):
+    print(content.Scentences.text)
+    """
     url = f"https://pubmed.ncbi.nlm.nih.gov/?term={content.searchTerm}"
     print(url)
 
@@ -15,3 +17,4 @@ def txt_rob(content):
 
     time.sleep(10)
     driver.quit()
+    """
