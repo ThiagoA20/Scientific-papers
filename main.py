@@ -1,4 +1,3 @@
-# https://pubmed.ncbi.nlm.nih.gov/
 from robots.text_robot import txt_rob
 
 class content(object):
