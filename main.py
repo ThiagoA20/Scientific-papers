@@ -1,4 +1,5 @@
 from robots.text_robot import txt_rob
+from content.catch_content import Catch_content
 
 class content(object):
     def __init__(self, searchTerm, originalContent, cleanContent):
@@ -14,8 +15,9 @@ class content(object):
 
 def Start(): 
     content.searchTerm = str(input('Type an search term: '))
-    content.Scentences.text = 'test'
-    txt_rob(content)
+    pdf_path = Catch_content(content)
+    print(pdf_path)
+    txt_rob(content, pdf_path)
 
 if __name__ == '__main__':
     Start()
