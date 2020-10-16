@@ -29,7 +29,7 @@ def Catch_content(content):
 
     while i < 10:
         driver.get(url)
-        time.sleep(2)
+        time.sleep(1)
         if o > 10:
             driver.find_element_by_xpath("//button[@data-ga-action='show_more']").click()
             time.sleep(2)
@@ -39,13 +39,21 @@ def Catch_content(content):
             driver.find_element_by_xpath(f"//a[@data-ga-action='{o}']").click()
             driver.get(f"https://sci-hub.st/{driver.current_url}")
             org = driver.find_element_by_xpath("//a[@href='#']")
-            file_names.append(org.get_attribute("onclick"))
+            text = org.get_attribute("onclick")
+            ind = []
+            for index, item in enumerate(text):
+                if item == '/':
+                    ind.append(index)
+                elif item == '?':
+                    a = index
+            ind = max(ind) + 1
+            file_names.append(text[ind:a])
             print(f"Article founds: {i+1}")
             i += 1
-            time.sleep(3)
         except:
             print('Article not found')
             continue
-
+    
+    time.sleep(10)
     driver.quit()
     return file_names
