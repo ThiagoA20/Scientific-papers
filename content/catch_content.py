@@ -1,13 +1,17 @@
 import time
+import os
 import requests
 import pandas as pd
 import json
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
+cwd = os.getcwd() + '/content'
 
 profile = webdriver.FirefoxProfile()
-profile.set_preference("browser.download.folderList", 1)
+profile.set_preference("browser.download.folderList", 2)
+profile.set_preference("browser.download.dir", f"{cwd}")
+profile.set_preference("browser.download.useDownloadDir", True)
 profile.set_preference("browser.helperApps.alwaysAsk.force", False)
 profile.set_preference("browser.download.manager.showWhenStarting", False)
 profile.set_preference("browser.helperApps.neverAsk.openFile", 'application/pdf')
@@ -21,7 +25,7 @@ def Catch_content(content):
     url = f"https://pubmed.ncbi.nlm.nih.gov/?term={content.searchTerm}"
     print(url)
     i = 0
-    o = 1
+    o = 0
 
     option = Options()
     option.headless = True
@@ -53,7 +57,11 @@ def Catch_content(content):
         except:
             print('Article not found')
             continue
+
+    for article in file_names:
+        print(f"{cwd}/{article}.part")
+        while os.path.exists(f"{cwd}/{article}.part"):
+            time.sleep(1)
     
-    time.sleep(10)
     driver.quit()
     return file_names
