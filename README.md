@@ -1,6 +1,6 @@
 # Scientific-papers
 
-![](preview.gif)
+![Alt Text](https://media.giphy.com/media/EOuhCaRCC6auMrgJmx/giphy.gif)
 ---
 
 # About
