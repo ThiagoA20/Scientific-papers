@@ -14,6 +14,8 @@ I'm a self-taught programmer and this project is part of personal portifolio tha
 
 Currently, if we want to develop a scientific research it's probably we will take a few months or weeks to well fundamented finish it. In most part of time, i believe that we spend reading anothers papers to construct solid base and arguments to our research, however and if we had a tool to extract only the essential of every article? this is what i was thinking when i start this project.
 
+---
+
 # Getting Started
 
 First clone the repository to your local machine, so, open terminal and paste:
