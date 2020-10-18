@@ -19,6 +19,7 @@ profile.set_preference("pdfjs.disabled", True)
 profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/pdf")
 
 file_names = []
+full_file_paths = []
 
 def Catch_content(content):
     print("\n---Choose your database---")
@@ -59,20 +60,23 @@ def Catch_content(content):
                     elif item == '?':
                         a = index
                 ind = max(ind) + 1
-                file_names.append(f"{cwd}/{text[ind:a]}")
+                file_name = text[ind:a].split('.')
+                file_names.append(f"{file_name[0]}")
+                full_file_paths.append(f"{os.getcwd() + text[ind:a]}")
                 print(f"Article founds: {i+1}")
                 i += 1
             except:
                 print('Article not found in Sci-hub database')
                 continue
 
-        for article in file_names:
-            time.sleep(1)
+        for article in full_file_paths:
+            time.sleep(2)
             while os.path.exists(f"{article}.part"):
                 print("Waiting the files download...")
                 time.sleep(2)
         
         driver.quit()
+        print(f"FFP = {full_file_paths}")
         return file_names
 
     elif database == 2:

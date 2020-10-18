@@ -1,28 +1,31 @@
-from PyPDF2 import PdfFileReader, PdfFileWriter
-from os.path import abspath
+#!/usr/bin/env python3
+# -*- coding; utf-8 -*-
 
-def txt_rob(content, pdf_paths):
+from PyPDF2 import PdfFileReader, PdfFileWriter
+import os
+import time
+
+
+def txt_rob(content, pdf_names):
     content.originalContent = ''
 
-    def convert_pdf_to_string(pdf):
-        pdf = PdfFileReader(pdf, strict=False)
-        for page_num in range(pdf.numPages):
-            pageObj = pdf.getPage(page_num)
+    os.system(f"java -cp cermine-impl-1.13-jar-with-dependencies.jar pl.edu.icm.cermine.ContentExtractor -path {os.getcwd() + '/content/originals'} -outputs 'text'")
+    time.sleep(15)
+    for file_name in pdf_names:
+        full_file_path = f"{os.getcwd() + '/content/originals/' + file_name + '.cermtxt'}"
+        with open(full_file_path, 'r') as f:
+            for line in f.readlines():
+                if len(line) != 2:
+                    content.originalContent += line
+                else:
+                    pass
 
-            try:
-                txt = pageObj.extractText()
-                try:
-                    dirt = open("dirt_content.txt", "r")
-                except:
-                    dirt = open("dirt_content.txt", "w")
-                dirt.writelines(txt)
-                dirt.close()
-            except:
-                pass
-            else:
-                content.originalContent += f"{txt}\n"
+    def removeBlankLines(text):
+        allLines = text.split('\n')
+        pure_content = ""
+        for i in allLines:
+            pure_content += f"{i + ' '}"
+        content.originalContent = pure_content
 
-    for pdf in pdf_paths:
-        convert_pdf_to_string(abspath(pdf))
-
+    removeBlankLines(content.originalContent)
     print(content.originalContent)

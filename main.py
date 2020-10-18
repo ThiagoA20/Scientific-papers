@@ -16,7 +16,6 @@ class content(object):
 def Start(): 
     content.searchTerm = str(input('Type an search term: '))
     pdf_path = Catch_content(content)
-    print(pdf_path)
     txt_rob(content, pdf_path)
 
 if __name__ == '__main__':
