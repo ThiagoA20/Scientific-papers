@@ -617,3 +617,463 @@ JavaScript error: , line 0: uncaught exception: 2147746132
 
 (firefox-esr:36954): GLib-GObject-CRITICAL **: 17:28:21.309: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1603060104156	Marionette	INFO	Stopped listening on port 39311
+1603064866334	geckodriver	INFO	Listening on 127.0.0.1:55859
+1603064866344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevwwqV1"
+*** You are running in headless mode.
+1603064866869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603064866869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603064866869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603064866869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://40b746d6-53b0-4783-b2e2-fb487a747136/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603064869454	Marionette	INFO	Listening on port 42299
+1603064869554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:39492): GLib-GObject-CRITICAL **: 18:48:03.224: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 39574, tid 39574, syscall 315, args 39574 140655570846464 56 0 17 140655570846464.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:39492): GLib-GObject-CRITICAL **: 18:48:10.789: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603064893854	Marionette	INFO	Stopped listening on port 42299
+1603067179268	geckodriver	INFO	Listening on 127.0.0.1:52089
+1603067179286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHx8TbC"
+*** You are running in headless mode.
+1603067179860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603067179861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603067179861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603067179861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://392362ac-1348-4297-8d0a-ea91abed5cb5/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603067182407	Marionette	INFO	Listening on port 46565
+1603067182497	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:41414): GLib-GObject-CRITICAL **: 19:26:30.551: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 41493, tid 41493, syscall 315, args 41493 140241744978432 56 0 32 140241744978432.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:41414): GLib-GObject-CRITICAL **: 19:26:37.456: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603067200510	Marionette	INFO	Stopped listening on port 46565
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
+1603069001470	geckodriver	INFO	Listening on 127.0.0.1:58829
+1603069001489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefs04GZ"
+*** You are running in headless mode.
+1603069002067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603069002067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603069002067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603069002067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://d8d31bdc-04f6-4757-82a9-28b86621253e/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603069004579	Marionette	INFO	Listening on port 38533
+1603069004599	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:42288): GLib-GObject-CRITICAL **: 19:56:53.917: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 42370, tid 42370, syscall 315, args 42370 140637716515584 56 0 8 140637716515584.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:42288): GLib-GObject-CRITICAL **: 19:57:00.004: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603069023034	Marionette	INFO	Stopped listening on port 38533
+1603069171067	geckodriver	INFO	Listening on 127.0.0.1:36777
+1603069171085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9VLWN4"
+*** You are running in headless mode.
+1603069171659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603069171659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603069171659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603069171659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://793b0921-4184-487e-a38a-57ae7ea1ff71/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603069174315	Marionette	INFO	Listening on port 35801
+1603069174397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+Sandbox: seccomp sandbox violation: pid 42755, tid 42755, syscall 315, args 42755 140241573341312 56 0 10 140241573341312.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(firefox-esr:42669): GLib-GObject-CRITICAL **: 19:59:43.416: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:42669): GLib-GObject-CRITICAL **: 19:59:48.860: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603069192063	Marionette	INFO	Stopped listening on port 35801
+1603069369575	geckodriver	INFO	Listening on 127.0.0.1:60365
+1603069369594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWBYhc6"
+*** You are running in headless mode.
+1603069370167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603069370167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603069370167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603069370167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://d8e08a37-b478-446c-a62f-049e4d772ae8/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603069372742	Marionette	INFO	Listening on port 39547
+1603069372805	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:43060): GLib-GObject-CRITICAL **: 20:03:01.571: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Sandbox: seccomp sandbox violation: pid 43142, tid 43142, syscall 315, args 43142 140650714645568 56 0 28 140650714645568.
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:43060): GLib-GObject-CRITICAL **: 20:03:08.050: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603069391106	Marionette	INFO	Stopped listening on port 39547
+1603069591665	geckodriver	INFO	Listening on 127.0.0.1:58509
+1603069591683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH5IvV9"
+*** You are running in headless mode.
+1603069592268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603069592269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603069592269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603069592269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://339da080-937c-448e-93f7-83ead6daf464/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603069595053	Marionette	INFO	Listening on port 46541
+1603069595092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:43930): GLib-GObject-CRITICAL **: 20:06:47.773: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 44011, tid 44011, syscall 315, args 44011 140625140454784 56 0 29 140625140454784.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:43930): GLib-GObject-CRITICAL **: 20:06:53.856: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603069616918	Marionette	INFO	Stopped listening on port 46541
+1603112765218	geckodriver	INFO	Listening on 127.0.0.1:36645
+1603112766235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepB3bbO"
+*** You are running in headless mode.
+1603112767449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603112767449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603112767449	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603112767450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://22917bcc-4911-4d20-bf58-e4ec0beb39b4/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603112771742	Marionette	INFO	Listening on port 45503
+1603112771753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:3947): GLib-GObject-CRITICAL **: 08:06:21.248: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 4078, tid 4078, syscall 315, args 4078 140220639885952 56 0 11 140220639885952.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603112791806	Marionette	INFO	Stopped listening on port 45503
+1603112831447	geckodriver	INFO	Listening on 127.0.0.1:53919
+1603112831474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqqEYJi"
+*** You are running in headless mode.
+1603112832036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603112832036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603112832036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603112832036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://4980ec3a-09b5-4f89-b352-b72be115dadc/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603112834678	Marionette	INFO	Listening on port 43685
+1603112834686	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:4277): GLib-GObject-CRITICAL **: 08:07:28.260: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Sandbox: seccomp sandbox violation: pid 4360, tid 4360, syscall 315, args 4360 140671809062272 56 0 2 140671809062272.
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603112858278	Marionette	INFO	Stopped listening on port 43685
+1603113043469	geckodriver	INFO	Listening on 127.0.0.1:57281
+1603113043496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQR8G0R"
+*** You are running in headless mode.
+1603113044060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603113044060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603113044060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603113044060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://fc84bb88-bf6e-4f4a-958e-7be168ea3af9/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603113046715	Marionette	INFO	Listening on port 45543
+1603113046810	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: seccomp sandbox violation: pid 4820, tid 4820, syscall 315, args 4820 140598606584640 56 0 13 140598606584640.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:4739): GLib-GObject-CRITICAL **: 08:11:04.766: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:4739): GLib-GObject-CRITICAL **: 08:11:09.740: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603113077135	Marionette	INFO	Stopped listening on port 45543
+1603117533996	geckodriver	INFO	Listening on 127.0.0.1:60515
+1603117534003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilethZfKV"
+*** You are running in headless mode.
+1603117534536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603117534536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603117534536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603117534536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://59145ba8-8b5d-4eda-bb6b-7ee31faff797/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603117536923	Marionette	INFO	Listening on port 43217
+1603117537013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:6309): GLib-GObject-CRITICAL **: 09:25:46.284: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 93: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Sandbox: seccomp sandbox violation: pid 6392, tid 6392, syscall 315, args 6392 139931810149568 56 0 21 139931810149568.
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:6309): GLib-GObject-CRITICAL **: 09:25:55.391: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603117559903	Marionette	INFO	Stopped listening on port 43217
+1603195826400	geckodriver	INFO	Listening on 127.0.0.1:54593
+1603195827529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXxk1XI"
+*** You are running in headless mode.
+1603195828776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603195828776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603195828777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603195828777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://59d62e0e-fdf1-4bca-b3b1-baf5f947b762/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603195833313	Marionette	INFO	Listening on port 46239
+1603195833346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:22612): GLib-GObject-CRITICAL **: 07:10:43.290: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Sandbox: seccomp sandbox violation: pid 22741, tid 22741, syscall 315, args 22741 140688014650816 56 0 6 140688014650816.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:22612): GLib-GObject-CRITICAL **: 07:10:50.593: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603195857706	Marionette	INFO	Stopped listening on port 46239
+1603196526521	geckodriver	INFO	Listening on 127.0.0.1:41999
+1603196526534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezkZirl"
+*** You are running in headless mode.
+1603196527204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603196527204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603196527204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603196527204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://fd7d535d-aa96-475e-8c9e-889275cde3d7/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603196530109	Marionette	INFO	Listening on port 41693
+1603196530148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+Sandbox: seccomp sandbox violation: pid 23372, tid 23372, syscall 315, args 23372 140011303911936 56 0 42 140011303911936.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(firefox-esr:23292): GLib-GObject-CRITICAL **: 07:22:25.622: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:23292): GLib-GObject-CRITICAL **: 07:22:43.174: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603196570282	Marionette	INFO	Stopped listening on port 41693
+[Parent 23292, Gecko_IOThread] WARNING: pipe error (82): Conexão fechada pela outra ponta: file /build/firefox-esr-q0MF88/firefox-esr-68.10.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1603196670655	geckodriver	INFO	Listening on 127.0.0.1:36585
+1603196670667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9TJTmX"
+*** You are running in headless mode.
+1603196671320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603196671321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603196671321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603196671321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://ea2a16ca-aac6-425e-a939-31c65f229b7f/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603196674337	Marionette	INFO	Listening on port 38981
+1603196674377	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+Sandbox: seccomp sandbox violation: pid 23768, tid 23768, syscall 315, args 23768 140244608896448 56 0 8 140244608896448.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 54: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+(firefox-esr:23684): GLib-GObject-CRITICAL **: 07:24:50.484: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+
+(firefox-esr:23684): GLib-GObject-CRITICAL **: 07:24:57.017: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1603196703854	Marionette	INFO	Stopped listening on port 38981
+1603546299078	geckodriver	INFO	Listening on 127.0.0.1:54077
+1603546300078	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1yMTOr"
+1603546301433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603546301433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603546301433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603546301433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 14600, tid 14600, syscall 315, args 14600 139794275317952 56 0 27 139794275317952.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://cedcf0e4-3620-4b70-b9fe-4566907aac17/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+Sandbox: seccomp sandbox violation: pid 14629, tid 14629, syscall 315, args 14629 140461529315968 56 0 21 140461529315968.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603546305491	Marionette	INFO	Listening on port 45791
+1603546305501	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603546331702	Marionette	INFO	Stopped listening on port 45791
+1603561021119	geckodriver	INFO	Listening on 127.0.0.1:37983
+1603561022127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSwrv1x"
+1603561023405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603561023405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603561023405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603561023406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 19804, tid 19804, syscall 315, args 19804 139868246063296 56 0 28 139868246063296.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://be12f89a-7f67-4f92-82b2-45dca32dba1a/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+Sandbox: seccomp sandbox violation: pid 19840, tid 19840, syscall 315, args 19840 139688444639872 56 0 21 139688444639872.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603561028524	Marionette	INFO	Listening on port 37217
+1603561028557	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603561053322	Marionette	INFO	Stopped listening on port 37217
+1603561132411	geckodriver	INFO	Listening on 127.0.0.1:47553
+1603561132421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFxnQ7v"
+1603561132987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603561132987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603561132987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603561132987	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 20150, tid 20150, syscall 315, args 20150 140652567382656 56 0 21 140652567382656.
+Sandbox: seccomp sandbox violation: pid 20172, tid 20172, syscall 315, args 20172 139642323016320 56 0 21 139642323016320.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://0f1ae64b-e1a9-4a68-8937-6707211edb0e/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603561135475	Marionette	INFO	Listening on port 35733
+1603561135530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603561166958	Marionette	INFO	Stopped listening on port 35733
+1603562852250	geckodriver	INFO	Listening on 127.0.0.1:55471
+1603562852257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOqJthF"
+1603562852942	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603562852943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603562852943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603562852943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 21486, tid 21486, syscall 315, args 21486 140042472315520 56 0 21 140042472315520.
+Sandbox: seccomp sandbox violation: pid 21506, tid 21506, syscall 315, args 21506 139823727745664 56 0 21 139823727745664.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://e146971c-b4a2-48a7-b44d-2d3701b32bee/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603562855305	Marionette	INFO	Listening on port 35627
+1603562855368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603562877886	Marionette	INFO	Stopped listening on port 35627
+1603563104714	geckodriver	INFO	Listening on 127.0.0.1:41735
+1603563104889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWDhBw1"
+1603563105925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603563105925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603563105925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603563105925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 22095, tid 22095, syscall 315, args 22095 140282149522048 56 0 21 140282149522048.
+Sandbox: seccomp sandbox violation: pid 22117, tid 22117, syscall 315, args 22117 139663079594624 56 0 21 139663079594624.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://db6b5816-2c58-47f9-952a-d7ad03b75125/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603563108375	Marionette	INFO	Listening on port 40997
+1603563108400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603563131258	Marionette	INFO	Stopped listening on port 40997
+1603563247662	geckodriver	INFO	Listening on 127.0.0.1:54097
+1603563247669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRhA5y2"
+1603563248234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603563248235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603563248235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603563248235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 22521, tid 22521, syscall 315, args 22521 139975493470848 56 0 21 139975493470848.
+Sandbox: seccomp sandbox violation: pid 22543, tid 22543, syscall 315, args 22543 140640876738368 56 0 34 140640876738368.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://a635ba2e-dfc6-475f-9a84-eb3a7e73042e/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603563250859	Marionette	INFO	Listening on port 46009
+1603563250880	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603563272778	Marionette	INFO	Stopped listening on port 46009
+1603563834499	geckodriver	INFO	Listening on 127.0.0.1:54699
+1603563834506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-esr" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehkwAQT"
+1603563835080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1603563835080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1603563835081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1603563835081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Sandbox: seccomp sandbox violation: pid 23155, tid 23155, syscall 315, args 23155 139766281591424 56 0 21 139766281591424.
+Sandbox: seccomp sandbox violation: pid 23177, tid 23177, syscall 315, args 23177 140015243868800 56 0 21 140015243868800.
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://fa9c0adc-adf0-45bd-88bf-5a4302b2e74e/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1603563837620	Marionette	INFO	Listening on port 41739
+1603563837716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+JavaScript error: , line 0: uncaught exception: 2147746132
+1603563862334	Marionette	INFO	Stopped listening on port 41739

@@ -33,7 +33,7 @@ def Catch_content(content):
     print(f"\nCatching content from: {databases[database]}, Searches Amount: {art_amount}")
     option = Options()
     option.headless = True
-    driver = webdriver.Firefox(firefox_binary="/usr/bin/firefox-esr", firefox_profile=profile, options=option)
+    driver = webdriver.Firefox(firefox_binary="/usr/bin/firefox-esr", firefox_profile=profile)
 
     if database == 1:
         url = f"https://pubmed.ncbi.nlm.nih.gov/?term={content.searchTerm}"
@@ -70,18 +70,18 @@ def Catch_content(content):
                 continue
 
         for article in full_file_paths:
-            time.sleep(2)
+            time.sleep(4)
             while os.path.exists(f"{article}.part"):
                 print("Waiting the files download...")
                 time.sleep(2)
-        
+
         driver.quit()
         print(f"FFP = {full_file_paths}")
         return file_names
 
     elif database == 2:
         driver.quit()
-        sys.exit('Working on PubChem... Select another database')
+        sys.exit('Working on pubChem Content ... Select another database')
 
     elif database == 3:
         driver.quit()

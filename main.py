@@ -1,5 +1,6 @@
 from robots.text_robot import txt_rob
 from content.catch_content import Catch_content
+import os
 
 class content(object):
     def __init__(self, searchTerm, originalContent, cleanContent):
@@ -13,7 +14,9 @@ class content(object):
             self.keywords = keywords
             self.image_url = image_url
 
-def Start(): 
+def Start():
+    for file in os.listdir(f"{os.getcwd()+'/content/originals/'}"):
+        os.remove(f"{os.getcwd()+'/content/originals/'+file}")
     content.searchTerm = str(input('Type an search term: '))
     pdf_path = Catch_content(content)
     txt_rob(content, pdf_path)
