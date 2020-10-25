@@ -23,9 +23,9 @@ First clone the repository to your local machine, so, open terminal and paste:
 
 ```git clone https://github.com/ThiagoA20/Scientific-papers.git```
 
-Second install geckodriver from ```https://github.com/mozilla/geckodriver/releases``` and add it to path using the following command in the terminal:
+Second, add geckodriver to path using the following command in the terminal:
 
-```PATH=$PATH:/home/your-user/local-where-geckodriver-was-installed```
+```PATH=$PATH:/home/your-user/Scientific-papers```
 
 And finally go with cd commad in terminal to the project folder and type:
 
