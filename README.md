@@ -5,7 +5,7 @@
 
 # About
 
-This is an tool to extract pdf files of scientific papers of most popular databases (like PubMed) and analysis they after with artificial intelligence to help researchers to develop science more fast. (because i'm very frustrate with the fact that portals, spaceships and a lot of another cool sci-fiction stuff does not exists yet 😂😅)
+This is an tool to extract pdf files of scientific papers of most popular databases (like PubMed) and analysis they after with artificial intelligence.
 
 I'm a self-taught programmer and this project is part of personal portifolio that i am building and i will be grateful if you can contribute with feedback of some code change, project structure or something that can made me an better developer! Also, it is an opensource script, that means it's free and you can use it to any thing!
 
